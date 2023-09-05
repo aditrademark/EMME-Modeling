@@ -1,0 +1,59 @@
+[Florida_1]
+License size 1
+WGS84
+Used node-link file with only freeways
+Shape NOT OK
+Location OK
+
+
+[Florida_2]
+License size 1
+WGS84
+Used node-link file with only freeways
+Shape NOT OK
+Location OK
+
+
+[Florida_3]
+License size 1
+WGS84
+Used node-link file with only freeways
+Used centroids as zones with HHincome
+Zones OK
+Shape OK
+Location OK
+
+
+[Florida_4]
+License size 20
+WGS84
+Used a shapefile which includes most roadways
+Location NOT OK
+
+
+[Florida_5]
+License size 18
+NAD83 UTM zone 17N
+Used a shapefile which includes most roadways
+Shape OK
+Location OK
+Node snapping accuracy NOT OK
+Node snapping 0 units
+
+
+[Florida_6]
+Used node and link files for motorways, primary roads from github.
+Github link: https://github.com/asu-trans-ai-lab/Integrated_modeling_GMNS/tree/main/examples/United_States_network
+Modified and merged data with no duplicates. 
+#lanes = 2 (type 1&2), 3 (type 3&4)
+speed = 60 (type 1), 50 (type 2), 40 (type 3), 30 (type 4)
+Auto mode only
+#node = ~55k, #links = ~72k, #zones = 67
+License size 20
+WGS84
+S1 = Empty canvas with auto mode. DELETED.
+S2 = Motorways and primary, perfect network. Duplicate nodes exist. Duplicate links were not built (ignored). DELETED.
+S3 = Motorways and primary, imperfect network. No duplicate nodes exist. Duplicate links were not built (ignored). DELETED.
+S4 = S5 with zones, 4 connectors to random nodes in a 50mi radius, 10 degrees between connector lines.
+S5 = Motorways and primary, perfect network. No duplicate nodes exist. Duplicate links were not built (ignored).
+

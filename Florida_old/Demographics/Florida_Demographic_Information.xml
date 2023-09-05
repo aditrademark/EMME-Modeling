@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>Total population, by county, for the state of Florida according to the US Census Bureau estimates for 2015For technical assistance, contact the Florida's Roadmap to Healthy Living Administrator</abstract>
+            <purpose>Total population, by county, for the state of Florida according to the US Census Bureau estimates for 2015</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>census</themekey>
+                <themekey>united</themekey>
+                <themekey>agriculture</themekey>
+                <themekey>population</themekey>
+                <themekey>florida</themekey>
+                <themekey>state</themekey>
+                <themekey>department</themekey>
+                <themekey>fnw</themekey>
+                <themekey>demographic</themekey>
+                <themekey>economic</themekey>
+                <themekey>condition</themekey>
+                <themekey>economic conditions</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This data is provided for information purposes only. Florida Department of Agriculture and Consumer Services (FDACS) geographic information systems (GIS) products are not legal descriptions or documents. FDACS reserves the right to update, replace, or discontinue GIS products without notification. No warranty, either written or implied, is made as to the accuracy or completeness of the information provided.</useconst>
+        <datacred>US Census Bureau; Florida Department of Agriculture and Consumer Services (FDACS), Division of Food, Nutrition and Wellness (DFNW); Esri.</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
