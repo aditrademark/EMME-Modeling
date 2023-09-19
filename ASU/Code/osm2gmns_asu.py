@@ -61,24 +61,3 @@ import grid2demand as gd
 # df['is_zone'] = df['node_type'].str.contains('centroid')
 # df.to_csv('node.csv', index=False)
 
-
-# Please make a new python file for this. This step comes after a step in EMME and cannot be used directly
-# Transfer the volume data from demand.csv to EMME's OD matrix
-df = pd.read_csv('demand.csv')
-matrix_data = {}
-for index, row in df.iterrows():
-    origin_zone = row['o_zone_id']
-    destination_zone = row['d_zone_id']
-    volume = row['volume']
-    if origin_zone not in matrix_data:
-        matrix_data[origin_zone] = {}
-    matrix_data[origin_zone][destination_zone] = volume
-matrix_df = pd.DataFrame(matrix_data).fillna(0) 
-matrix_df.to_csv('temp.csv')
-mf1_df = pd.read_csv('mf1.csv', header=None) 
-for index, row in matrix_df.iterrows():
-    origin_zone = index
-    for destination_zone, volume in row.iteritems():
-        mf1_df.at[origin_zone, destination_zone] = volume
-mf1_df.to_csv('mf1.csv', header=False, index=False)  
-
